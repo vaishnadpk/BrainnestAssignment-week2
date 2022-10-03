@@ -1,0 +1,129 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+}
+ul li {
+  margin-left: 10px;
+}
+
+.headnav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+section {
+  min-height: 330px;
+  padding: 20px 30px;
+}
+.s1 {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.description {
+  max-width: 40%;
+}
+.description button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.s2head {
+  text-align: center;
+}
+.s2main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.s2images {
+  width: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 30px;
+  object-fit: cover;
+}
+figcaption {
+  text-align: center;
+  width: 150px;
+  height: 75px;
+}
+#s2orientation {
+  height: 154px;
+}
+
+.imgPlace {
+  background-color: gray;
+  min-height: 230px;
+  width: 60%;
+  margin-top: 10px;
+  background-image: url(./src/mainimage.jpg);
+  background-size: cover;
+}
+.s3main {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 39px;
+  font-weight: 100;
+  font-style: italic;
+  padding-top: 70px;
+}
+.author {
+  text-align: right;
+}
+
+.s4main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.s4div {
+  background-color: #3882f6;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  min-width: 750px;
+  justify-content: space-evenly;
+}
+
+.s4div button {
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
