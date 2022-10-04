@@ -112,31 +112,33 @@ figcaption {
   background-image: url(./src/mainimage.jpg);
   background-size: cover;
 }
+
+.flxcent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .s3main {
   background-color: #e5e7eb;
   color: #1f2937;
   font-size: 39px;
   font-weight: 100;
   font-style: italic;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+}
+
+.s3main strong {
+  align-self: end;
 }
 
 .s4main {
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 .s4div {
   background-color: #3882f6;
   border: 1px solid #3882f6;
   border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   color: white;
   min-width: 750px;
   justify-content: space-evenly;
