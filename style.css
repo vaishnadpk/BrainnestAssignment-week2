@@ -96,6 +96,7 @@ a {
   object-fit: cover;
 }
 figcaption {
+  color: black;
   text-align: center;
   width: 150px;
   height: 75px;
