@@ -131,6 +131,8 @@ figcaption {
 
 .s3main author {
   align-self: end;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .s4main {
