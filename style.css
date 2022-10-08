@@ -158,3 +158,43 @@ figcaption {
   font-size: small;
   font-weight: lighter;
 }
+.main,
+.description,
+.imgPlace,
+.s2main,
+.s4div,
+.s4div p,
+.herotext {
+  transition: 150ms all ease-in-out;
+}
+
+@media only screen and (max-width: 850px) {
+  .main {
+    flex-direction: column;
+  }
+  .description {
+    max-width: 100%;
+    text-align: center;
+  }
+  .imgPlace {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .s2main {
+    flex-wrap: wrap;
+  }
+  .s4div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    padding: 15px;
+  }
+  .s4div p {
+    text-align: center;
+  }
+  .herotext {
+    font-size: x-large;
+  }
+}
