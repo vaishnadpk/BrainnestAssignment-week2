@@ -153,10 +153,12 @@ figcaption {
   font-size: larger;
   font-weight: bold;
   word-spacing: 0.1rem;
+  line-height: 0;
 }
 .secondtext {
   font-size: small;
   font-weight: lighter;
+  margin-top: 0;
 }
 .main,
 .description,
@@ -190,8 +192,6 @@ figcaption {
     align-items: center;
     min-width: 500px;
     padding: 15px;
-  }
-  .s4div p {
     text-align: center;
   }
   .herotext {

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML-CSS Website</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,18 +16,18 @@
     />
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <section class="s1" id="nav-linksabout">
-        <div class="headnav">
+        <nav class="headnav">
           <header>🏠 Home decor</header>
           <ul>
             <li><a href="#nav-linksabout">About</a></li>
             <li><a href="#nav-linksservices">Services</a></li>
             <li><a href="#nav-linkscontact">Contact</a></li>
           </ul>
-        </div>
-        <div class="main">
-          <div class="description">
+        </nav>
+        <article class="main">
+          <article class="description">
             <h1>Style your space with our exclusive collections</h1>
             <p>
               Check out our home decor selection for the very best in unique or
@@ -35,14 +35,14 @@
               nearest stores.
             </p>
             <button type="submit">Sign up</button>
-          </div>
-          <div class="imgPlace"></div>
+          </article>
+          <article class="imgPlace"></article>
           <!-- <img src="./src/Home-Decor.jpeg" alt="Decorated home image" /> -->
-        </div>
+        </article>
       </section>
       <section id="nav-linksservices">
         <h1 class="s2head">Easy ways to create decorative displays</h1>
-        <div class="s2main">
+        <article class="s2main">
           <figure>
             <a
               href="https://www.ikea.com/us/en/rooms/living-room/how-to/more-ways-to-bring-nature-inside-your-home-pubc11668f0"
@@ -102,7 +102,7 @@
               </figcaption>
             </a>
           </figure>
-        </div>
+        </article>
       </section>
       <section class="flxcent s3main">
         <q
@@ -110,22 +110,21 @@
           They are two complementary features with which to populate a luxe
           environment. </q
         ><br />
-        <strong> - Kelly Weartsler</strong>
+        <author> - Kelly Weartsler</author>
       </section>
 
       <section class="flxcent s4main" id="nav-linkscontact">
-        <div class="flxcent s4div">
-          <p>
-            <span class="herotext"> Call into action! Its time! </span><br />
-            <span class="secondtext"
-              >Sign up for our product by clicking that button right over
-              there.</span
-            >
-          </p>
+        <article class="flxcent s4div">
+          <aside>
+            <h3 class="herotext">Call into action! Its time!</h3>
+            <p class="secondtext">
+              Sign up for our product by clicking that button right over there.
+            </p>
+          </aside>
           <button type="submit">Sign up</button>
-        </div>
+        </article>
       </section>
       <footer class="s1">@copyright</footer>
-    </div>
+    </main>
   </body>
 </html>
